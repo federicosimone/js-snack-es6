@@ -1,7 +1,8 @@
 let biciDaCorsa = [
     {nome:"Bianchi" , peso: "10.5"} , 
     {nome:"Triban" , peso: "7.2"} ,
-    {nome:"Pinarello" , peso: "13"} ,  
+    {nome:"Pinarello" , peso: "13"} ,
+    {nome:"Silverstar" , peso: "6.50"} ,  
 ]
 
 //console.log(biciDaCorsa)
@@ -17,7 +18,6 @@ for (i=1; i< biciDaCorsa.length ; i++) {
 
     if (pesoBici < parseFloat(biciDaCorsa[i-1].peso)) {
         pesoMinore = parseFloat(pesoBici) ;
-        
     } 
 }
 
