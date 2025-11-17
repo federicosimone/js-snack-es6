@@ -16,7 +16,7 @@ for (i=0 ; i< serieA.length ; i++) {
 console.log(serieA)
 console.log(elencoSquadre)
 
-//pushare nomi 
+
 
 
 
