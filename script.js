@@ -6,6 +6,9 @@ let serieA = [
 ]
 
 
-for (i=0 ; i< SerieA.length ; i++) {
+for (i=0 ; i< serieA.length ; i++) {
     serieA[i].puntiFatti= Math.floor((Math.random() * 100) + 1) ;
+    serieA[i].falliSubiti= Math.floor((Math.random() * 10) + 1) ;
 }
+
+console.log(serieA)
