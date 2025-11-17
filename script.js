@@ -12,3 +12,13 @@ for (i=0 ; i< serieA.length ; i++) {
 }
 
 console.log(serieA)
+
+let elencoSquadre= []
+
+for (i=0 ; i< serieA.length ; i++) {
+
+    elencoSquadre.push(serieA[i].nome) ;
+
+}
+
+console.log(elencoSquadre)
