@@ -5,6 +5,8 @@ let serieA = [
     {nome: "Cremonese", puntiFatti: "" , falliSubiti: "" }
 ]
  
+//FARE SEMPRE PRIMA LA PROVA , INSERENDO COME RISULTATO UN QUALCOSA DI FISSO, POI INSERISCO LE OPERAZIONI
+
 let elencoSquadre= [] ;
 
 const squadreFiltrate = []
